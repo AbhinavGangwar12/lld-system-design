@@ -40,3 +40,13 @@ Introduced by **Barbar Liskov (1987)** , this princple says that , **derived or 
 + This violates LSP because a derived class should not alter or break the behavior expected from the base class.
 
 [Check the code example for this princlple](wwww.temp.com)
+
+### 4. Interface Segregation Principle
+This principle applies to interfaces and is similar to SRP, focusing on keeping interfaces clean and well-defined. It states that the client should not be forced to depend on the methods that are irrelevant to them, avoiding unnecessary dependencies.
+
+> Example: Suppose if you enter a restaurant and you are pure vegetarian. The waiter in that restaurant gave you the menu card which includes vegetarian items, non-vegetarian items, drinks, and sweets. 
+
++ Customers should receive a menu relevant to their needs (e.g., vegetarian only) instead of a general menu with unnecessary items.
++ Splitting a common menu into smaller, specific ones reduces unnecessary dependencies and minimizes future changes.
+
+[Check the code example for this princlple](wwww.temp.com)

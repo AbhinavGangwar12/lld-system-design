@@ -3,13 +3,11 @@ The SOLID principles are five essential guidelines that enhance software design,
 - The SOLID principles help in enhancing loose coupling. Loose coupling means a group of classes are less dependent on one another.
 - Loose coupling helps in making code more reusable, maintainable, flexible and stable.
 - Loosely coupled classes minimize changes in your code when some changes are required in some other code.
-```
-### S - SINGLE RESPONSIBILITY
-### O - OPEN-CLOSED PRINCIPLE
-### L - LISKOV SUBSTITUTION PRINCIPLE
-### I - INTERFACE SEGREGATION PRINCIPLE
-### D - DEPENDENCY INVERSION PRINCIPLE
-```
+> **S** - SINGLE RESPONSIBILITY
+> **O** - OPEN-CLOSED PRINCIPLE
+> **L** - LISKOV SUBSTITUTION PRINCIPLE
+> **I** - INTERFACE SEGREGATION PRINCIPLE
+> **D** - DEPENDENCY INVERSION PRINCIPLE
 ## 1. Single Responsibility Principle
 This principle states that **A class should have only once reason to change** which means every class should have only one single responsibility/job/purpose.
 
@@ -61,3 +59,8 @@ This principle states that **High-level modules should not depend on low-level m
 > Example: In a software development team, developers depend on an abstract version control system (e.g., Git) to manage and track changes to the codebase. They don't depend on specific details of how Git works internally. 
 
 [Check the code example for this princlple](wwww.temp.com)
+
+### Need for SOLID Principles in Object-Oriented Design
++ SOLID principles make code easier to maintain. When each class has a clear responsibility, it's simpler to find where to make changes without affecting unrelated parts of the code.
++ These principles support growth in software. For example, the Open/Closed Principle allows developers to add new features without changing existing code, making it easier to adapt to new requirements.
++ SOLID encourages flexibility. By depending on abstractions rather than specific implementations (as in the Dependency Inversion Principle), developers can change components without disrupting the entire system.

@@ -3,12 +3,13 @@ The SOLID principles are five essential guidelines that enhance software design,
 - The SOLID principles help in enhancing loose coupling. Loose coupling means a group of classes are less dependent on one another.
 - Loose coupling helps in making code more reusable, maintainable, flexible and stable.
 - Loosely coupled classes minimize changes in your code when some changes are required in some other code.
+```
 ### S - SINGLE RESPONSIBILITY
 ### O - OPEN-CLOSED PRINCIPLE
 ### L - LISKOV SUBSTITUTION PRINCIPLE
 ### I - INTERFACE SEGREGATION PRINCIPLE
 ### D - DEPENDENCY INVERSION PRINCIPLE
-
+```
 ## 1. Single Responsibility Principle
 This principle states that **A class should have only once reason to change** which means every class should have only one single responsibility/job/purpose.
 
@@ -48,5 +49,15 @@ This principle applies to interfaces and is similar to SRP, focusing on keeping 
 
 + Customers should receive a menu relevant to their needs (e.g., vegetarian only) instead of a general menu with unnecessary items.
 + Splitting a common menu into smaller, specific ones reduces unnecessary dependencies and minimizes future changes.
+
+[Check the code example for this princlple](wwww.temp.com)
+
+### 5. Dependency Inversion Principle
+This principle states that **High-level modules should not depend on low-level modules, both should depend on abstraction**. means ***Big parts of your program should not directly depend on small, detailed parts. Instead, both should depend on general ideas (interfaces)***.
+
++ In simpler terms, the DIP suggests that classes should rely on abstractions (e.g., interfaces or abstract classes) rather than concrete implementations.
++ This allows for more flexible and decoupled code, making it easier to change implementations without affecting other parts of the codebase.
+
+> Example: In a software development team, developers depend on an abstract version control system (e.g., Git) to manage and track changes to the codebase. They don't depend on specific details of how Git works internally. 
 
 [Check the code example for this princlple](wwww.temp.com)

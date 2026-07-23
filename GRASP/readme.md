@@ -1,7 +1,6 @@
 ### GRASP Design Principles in OOAD
 In Object-Oriented Analysis and Design (OOAD), General Responsibility Assignment Software Patterns (GRASP) play a crucial role in designing effective and maintainable software systems. GRASP offers a set of guidelines to aid developers in assigning responsibilities to classes and objects in a way that promotes low coupling, high cohesion, and overall robustness.
 
-![GRASP PATTERNS](https://medium.com/@alxkm/grasp-guiding-object-oriented-design-in-java-0f3e4d12a479)
 
 ### 1. Creator
 Assign the responsibility for creating instances of a class to the class itself or to a related factory class.
